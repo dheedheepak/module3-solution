@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+    
+}
+.navh1{
+    display:inline;
+    padding-left: 40px;
+}
+.navdiv{
+    display: inline;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    display:none;
+}
+.sidenav{
+    display:none;
+}
+.sidenav>.h2{
+    text-align: center;
+    padding: 10px;
+    border: solid black 2px;
+
+    
+}
+.sidenav>.h21{
+    text-align: center;
+    padding: 10px;
+    border: solid black 2px;
+    border-bottom: solid black 4px;
+    
+}
+.heading{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contend>div>p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contend>div>center>h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contend>div{
+    background-color: grey;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+@media screen and (max-width:600px){
+    .navdiv{
+        display:inline;
+    }
+    
+}
